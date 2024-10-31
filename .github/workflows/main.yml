@@ -30,4 +30,4 @@ jobs:
       run: npm install leaflet vue2-leaflet
 
     - name: Run the project
-      run: npm run serve
+      run: npm run serve &
