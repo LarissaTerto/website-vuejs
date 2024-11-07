@@ -5,6 +5,9 @@ import MapDespesas from './components/MapDespesas.vue'
 import Despesa from './views/Despesa.vue'
 import Pessoa from './views/Pessoa.vue'
 
+const currentYear = new Date().getFullYear();
+console.log(currentYear); 
+
 Vue.use(Router)
 
 let router = new Router({
@@ -13,7 +16,7 @@ let router = new Router({
   routes: [
     {
       path: '/',
-      redirect: `/2024/1`
+      redirect: `/${currentYear}/1`
     },
     {
       path: '/despesa/:year/:code',
