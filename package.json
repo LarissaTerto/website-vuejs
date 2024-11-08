@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
     "@babel/preset-react": "^7.25.9",
     "@kazupon/vue-i18n-loader": "^0.3.0",
     "@tailwindcss/postcss7-compat": "^2.2.17",
@@ -42,7 +43,7 @@
     "autoprefixer": "^9.8.8",
     "axios": "^0.26.1",
     "axios-extensions": "^3.0.3",
-    "babel-core": "^6.26.3",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^29.7.0",
     "babel-loader": "^9.2.1",
     "babel-preset-env": "^1.7.0",

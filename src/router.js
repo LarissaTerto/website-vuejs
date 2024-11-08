@@ -6,7 +6,6 @@ import Despesa from './views/Despesa.vue'
 import Pessoa from './views/Pessoa.vue'
 
 const currentYear = new Date().getFullYear();
-console.log(currentYear); 
 
 Vue.use(Router)
 
