@@ -1,13 +1,13 @@
 # Instruções de Execução (do grupo)
 
-##Pré-requisitos
+## Pré-requisitos
 Node.js versão 14
  ```
 nvm install 14
 nvm use 14
 ```
 
-##Execução
+## Execução
 Clonar o repositório Cuidando_ESI recursivamente:
 ```
 git clone --recurse-submodules https://github.com/Luizarego/Cuidando_ESI.git
