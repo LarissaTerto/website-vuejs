@@ -1,6 +1,15 @@
 # Instruções para executar os testes jest
 
-Clonar este repositório:
+Clonar o repositório Cuidando_ESI recursivamente:
+```
+git clone --recurse-submodules https://github.com/Luizarego/Cuidando_ESI.git
+cd Cuidando_ESI
+git submodule update --init --recursive
+```
+
+
+
+Ou clonar apenas este repositório:
 ```git clone https://github.com/LarissaTerto/website-vuejs/```
 
 Abrir o terminal deste diretório e baixar os seguintes requisitos:
