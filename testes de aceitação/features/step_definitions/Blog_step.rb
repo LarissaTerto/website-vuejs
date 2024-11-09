@@ -4,7 +4,7 @@ require 'capybara/rspec'
 #Blog
 #language: pt
 Dado('que já estou na página inicial do site "Cuidando do Meu Bairro"') do
-visit 'https://cuidando.vc/2022/1'
+visit '/'
 end
 
 Quando('clico em "Blog"') do

@@ -13,5 +13,5 @@ Quando('clico em "Análises"') do
 end
 
 Então('devo ser redirecionado para a página de análises') do
-  assert_current_path('https://cuidando.vc/analises')
+  assert_current_path('http://192.168.0.10:8080/analises')
 end

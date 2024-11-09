@@ -13,5 +13,6 @@ Quando('clico em "portal de transparência"') do
 end
 
 Então('devo ser redirecionado para a página do portal de transparência') do
+  switch_to_window { title == 'Orçamento - Secretaria Municipal da Fazenda - Prefeitura' }
   assert_current_path('https://orcamento.sf.prefeitura.sp.gov.br/orcamento/execucao.php')
 end

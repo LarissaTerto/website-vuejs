@@ -12,5 +12,5 @@ When('clico no botão "Sobre" no menu de navegação') do
 end
 
 Then('devo ser redirecionado para a página Sobre') do
-  assert_current_path('https://cuidando.vc/sobre')
+  assert_current_path('http://192.168.0.10:8080/sobre')
 end

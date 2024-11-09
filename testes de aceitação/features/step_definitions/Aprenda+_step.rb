@@ -13,6 +13,6 @@ find('#navbar > ul > li:nth-child(2) > a').click
 end
 
 Então('devo ser redirecionado para a página de glossário') do
-assert_current_path('https://cuidando.vc/glossario')
+assert_current_path('http://192.168.0.10:8080/glossario')
 end
 
