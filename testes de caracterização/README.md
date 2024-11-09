@@ -12,7 +12,7 @@ git submodule update --init --recursive
 Ou clonar apenas este repositório:
 ```git clone https://github.com/LarissaTerto/website-vuejs/```
 
-Abrir o terminal deste diretório e baixar os seguintes requisitos:
+Abrir o terminal deste diretório (testes de caracterização) e baixar os seguintes requisitos:
 ```
 npm install --save-dev jest
 npm install --save-dev @vue/test-utils@1
